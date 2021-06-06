@@ -1,4 +1,4 @@
-package app.simplestudio.com.jireh.eureka;
+package app.simplestudio.jireh.eureka;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

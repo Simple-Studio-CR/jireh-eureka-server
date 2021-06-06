@@ -8,10 +8,10 @@
 		<version>2.4.5</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>app.simplestudio.com.jireh.eureka</groupId>
-	<artifactId>app.simplestudio.com.jireh</artifactId>
+	<groupId>app.simplestudio</groupId>
+	<artifactId>jireh-eureka-server</artifactId>
 	<version>0.0.1</version>
-	<name>simplestudio-jireh-eureka-server</name>
+	<name>jireh-eureka-server</name>
 	<description>Servicios Comunes de Fumigadora Jireh</description>
 	<properties>
 		<java.version>11</java.version>
