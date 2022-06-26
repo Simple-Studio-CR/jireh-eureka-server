@@ -8,11 +8,11 @@
 		<version>2.5.4</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>app.simplestudio</groupId>
-	<artifactId>jireh-eureka-server</artifactId>
+	<groupId>app.simplestudio-eureka-server</groupId>
+	<artifactId>app-simplestudio-eureka-server</artifactId>
 	<version>0.0.1</version>
-	<name>jireh-eureka-server</name>
-	<description>Servicios Comunes de Fumigadora Jireh</description>
+	<name>eureka-server</name>
+	<description>Eureka Server Simple Studio</description>
 	<properties>
 		<java.version>11</java.version>
 		<spring-cloud.version>2020.0.2</spring-cloud.version>
@@ -42,7 +42,12 @@
 		<groupId>org.glassfish.jaxb</groupId>
 		<artifactId>jaxb-runtime</artifactId>
 		</dependency>
-	</dependencies>
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-netflix-eureka-server</artifactId>
+            <version>3.0.3</version>
+        </dependency>
+    </dependencies>
 	<dependencyManagement>
 		<dependencies>
 			<dependency>
@@ -63,5 +68,4 @@
 			</plugin>
 		</plugins>
 	</build>
-
 </project>
